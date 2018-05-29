@@ -1,16 +1,25 @@
-# Header Banner Multi-Message Switcher
 
-This switches the header banner based on which creative is clicked. You can add as many sets as you want.
 
-You can view an example [here](https://mediativecreative.github.io/Header-Banner-Multi-Message-Switcher/)
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-CSS:
-```
-<style>.media-banner{margin:0;height:0;overflow:hidden}.md_hb_show{margin:auto;height:auto;overflow:auto}</style>
-```
+<style>
 
-JQuery:
-```
+/* Banner control */
+
+.media-banner {
+  margin: 0;
+  height: 0;
+  overflow: hidden; 
+}
+
+.md_hb_show {
+  margin: auto;
+  height: auto;
+  overflow: auto;
+}
+
+</style>
+
 <script>
 
 jQuery(document).ready(function(e) {
@@ -35,10 +44,6 @@ jQuery(document).ready(function(e) {
 });
 
 </script>
-```
-
-Sample HTML:
-```
 
 <div id="md_hb_set1">
   <div class="media-banner row desktop-only">
@@ -68,6 +73,4 @@ Sample HTML:
     <img src="http://i.walmartimages.ca/img/mediative/Samsung-Q4-2017/14308%20-samsung_CE/great-offers-3-from-samsung-tv-mb-e.png" alt="THIS IS THE ALT TEXT" title="THIS IS THE TITLE" />
   </div>
 </div>
-```
-
 
