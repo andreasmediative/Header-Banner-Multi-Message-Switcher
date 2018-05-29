@@ -2,7 +2,7 @@
 
 This switches the header banner based on which creative is clicked. You can add as many sets as you want.
 
-You can view an example [here](https://mediativecreative.github.io/Header-Banner-Multi-Message-Switcher/)
+You can view an example [here](https://mediativecreative.github.io/Header-Banner-Multi-Message-Switcher/index.html)
 
 CSS:
 ```
